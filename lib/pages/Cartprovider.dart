@@ -5,12 +5,7 @@ class CartProvider with ChangeNotifier{
 
     List<UsersModel> _products = [];
 
-    /*
-    * id (index)
-    * price = price * 5
-    * count 5
-    *
-    * */
+
 
     List<UsersModel> get product => _products;
 
