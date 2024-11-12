@@ -49,6 +49,13 @@ class _CartPageState extends State<CartPage> {
                     children: [
                       Image.network('${product.image}'),
                       Text('${product.title}'),
+                      Spacer(),
+                      IconButton(
+                          onPressed: (){
+
+                          }, icon: Icon(Icons.plus_one)),
+                      IconButton(
+                          onPressed: (){}, icon: Icon(Icons.minimize)),
                     ],
                   )
                 ),
